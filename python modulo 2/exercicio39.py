@@ -3,9 +3,11 @@ from datetime import date
 atual = date.today().year
 sexo = str(input('digite seu sexo: '))
 nacimento = int(input('digite seu ano de nacimento: '))
+sexo1 = 'F'
+sexo2 = 'M'
 idade = atual - nacimento
 print('se vc for {} se não sera dispensada, quem naceu em {} tem {} anos em {}'.format(sexo1, sexo2, nacimento, idade, atual))
-if sexo == masculino :
+if sexo == 'masculino' :
     print(' continue avançando')
 else:
     print( 'voce esta dispensada ')
